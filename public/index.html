@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora Human Design</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Calculadora de Human Design</h1>
+  <form id="designForm">
+    <label>Nombre:
+      <input type="text" name="name" />
+    </label>
+    <label>Fecha de nacimiento:
+      <input type="date" name="birthDate" required />
+    </label>
+    <label>Hora de nacimiento:
+      <input type="time" name="birthTime" required />
+    </label>
+    <label>Lugar de nacimiento:
+      <input type="text" name="birthPlace" required />
+    </label>
+    <button type="submit">Calcular</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

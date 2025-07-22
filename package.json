@@ -1,0 +1,14 @@
+{
+  "name": "human-design",
+  "version": "1.0.0",
+  "description": "proyecto para human design ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Octavio Beledo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

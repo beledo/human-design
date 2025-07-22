@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+#result {
+  margin-top: 2rem;
+  white-space: pre-wrap;
+  background: #f0f0f0;
+  padding: 1rem;
+}
